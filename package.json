@@ -6,12 +6,17 @@
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.config.js --hot --inline"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oh4d/vuejs-timeless-clock"
+  },
   "keywords": [
     "vue clock"
   ],
   "peerDependencies": {
-    "vue": "^2.5.17",
-    "moment": "^2.23.0"
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.23",
+    "vue": "^2.5.21"
   },
   "author": "Ohad Goldstein <ohadon3@gmail.com>",
   "license": "ISC",
@@ -42,10 +47,5 @@
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {
-    "moment": "^2.23.0",
-    "moment-timezone": "^0.5.23",
-    "vue": "^2.5.21"
   }
 }
