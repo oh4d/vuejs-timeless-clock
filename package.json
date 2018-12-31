@@ -1,6 +1,6 @@
 {
   "name": "vuejs-timeless-clock",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Vue clock component",
   "main": "./TimelessClock.vue",
   "scripts": {
