@@ -48,6 +48,13 @@
             this.stop();
         },
 
+        watch: {
+            timezone() {
+                this.stop();
+                this.initializeTime();
+            }
+        },
+
         computed: {
             hoursComputed() {
                 return padClock(this.hours);
